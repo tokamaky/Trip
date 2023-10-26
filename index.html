@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Algonquin Park Trip Plan</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="mediaqueries.css" />
+</head>
+<body>
+  <nav id="desktop-nav">
+    <div class="logo"> Xiaohang Ji</div>
+    <div>
+      <ul class = "nav-links">
+        <li><a href="#Map" >Map</a></li>
+        <li><a href="#Plan">Plan</a></li>
+        <li><a href="#Experience">Experience</a></li>
+        <li><a href="#Memory">Memory</a></li>
+      </ul>
+    </div>
+  </nav>
+  <nav id="hamburger-nav">
+    <div class="logo"> Xiaohang Ji</div>
+    <div class="hamburger-menu">
+      <div class="hamburger-icon" onclick="toggleMenu()">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <div class="menu-links">
+      <li><a href="#Map" onclick="toggleMenu()">Map</a></li>
+      <li><a href="#Plan" onclick="toggleMenu()">Plan</a></li>
+      <li><a href="#Experience" onclick="toggleMenu()">Experience</a></li>
+      <li><a href="#Memory" onclick="toggleMenu()">Memory</a></li>
+    </div>
+  </nav>
+  <section id="Map"style="text-align: center;">
+    <h2>Map</h2>
+    <p>Here's the map of Algonquin Park:</p>
+    <img  class="map-image" src="./assets/algonquin_park_autumn_day_use_guide_page-0002.jpg" alt="Algonquin Park Map 1">
+    <img  class="map-image" src="./assets/AP_corridor_map_page-0001.jpg" alt="Algonquin Park Map 2">
+  </section>
+
+  <section id="Plan">
+    <h2>Plan</h2>
+    <p>Here's your timetable for the day:</p>
+    <div class="timetable-container">
+    <table>
+      <tr>
+        <th>Time</th>
+        <th>Activity</th>
+      </tr>
+      <tr>
+        <td>1-2 am</td>
+        <td>Shopping</td>
+      </tr>
+      <tr>
+        <td>3-4 am</td>
+        <td>Driving</td>
+      </tr>
+      <tr>
+        <td>5-7 am</td>
+        <td>Sleeping</td>
+      </tr>
+    </table>
+  </div>
+  <div style="clear: both;"></div>
+  </section>
+
+  
+  <footer>
+    <p>Copyright &#169; 2023 Xiaoahng Ji. All Rights Reserved.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>  
